@@ -1,0 +1,80 @@
+{
+    "products" :[
+        {
+            "id" : 1,
+            "title" : "Product 1",
+            "price" : 1050,
+            "description" : "Description 1"
+        },
+        {
+            "id" : 2,
+            "title" : "Product 2",
+            "price" : 2050,
+            "description" : "Description 2"
+        },
+        {
+            "id" : 3,
+            "title" : "Product 3",
+            "price" : 3050,
+            "description" : "Description 3"
+        }
+    ],
+    "most-active-stock": {
+        "symbol" : "STOCK A",
+        "price" : 210.0
+    },
+    "top-gaining-stock": {
+        "symbol" : "STOCK B",
+        "price" : 50.2
+    },
+    "top-losing-stock": {
+        "symbol" : "STOCK C",
+        "price" : 110.3
+    },
+    "postcodes" :[
+        {
+            "postcode" : "E3 4AF",
+            "post_town" : "London",
+            "building_name" : " DLF Cyber City",
+            "sub_buliding_name" : "Sigma Block",
+            "line_1" : "Ramapuram Road",
+            "postcountry" : "India"
+        },
+        {
+            "postcode" : "E4 3EF",
+            "post_town" : "German",
+            "building_name" : "Elcot",
+            "sub_buliding_name" : "Sigma Block",
+            "line_1" : "Anna Street Road",
+            "postcountry" : "India"
+        },
+        {
+            "postcode" : "E5 3HF",
+            "post_town" : "France",
+            "building_name" : "Tidal Park",
+            "sub_buliding_name" : "Sigma Block",
+            "line_1" : "Tharamani Road",
+            "postcountry" : "India"
+        }
+    ],
+    "featured-products" :[
+        {
+            "id" : 1,
+            "title" : "Featured Product 1",
+            "price" : 1230,
+            "description" : "Description 1"
+        },
+        {
+            "id" : 2,
+            "title" : "Featured Product 2",
+            "price" : 4560,
+            "description" : "Description 2"
+        },
+        {
+            "id" : 3,
+            "title" : "Featured Product 3",
+            "price" : 7890,
+            "description" : "Description 3"
+        }
+    ]
+}

@@ -7,7 +7,7 @@ export const load = async(serverLoadEvent) => {
     if(productId>3){
         throw redirect(307, '/products');
     }
-    const response = await fetch('http://localhost:4000/products?id=1');
+    const response = await fetch(`http://localhost:4000/products/${productId}`);
     //console.log(response.json());
     const product = await response.json();
     //console.log(product);

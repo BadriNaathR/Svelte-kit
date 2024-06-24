@@ -13,7 +13,6 @@
         <p>{product.description}</p>
     </div>
 {/each}
-
 <style>
     .items{
         display: inline-block;

@@ -31,6 +31,22 @@
         "symbol" : "STOCK C",
         "price" : 110.3
     },
+    "stocks" :[
+        {
+            "symbol" : "STOCK D",
+            "price" : 151.3
+
+        },
+        {
+            "symbol" : "STOCK E",
+            "price" : 120.0
+
+        },
+        {
+            "symbol" : "STOCK F",
+            "price" : 140.3
+        }
+    ],
     "postcodes" :[
         {
             "postcode" : "E3 4AF",

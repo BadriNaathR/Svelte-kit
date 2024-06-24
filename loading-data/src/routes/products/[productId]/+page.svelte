@@ -4,9 +4,6 @@
     const product = data.product;
 </script>
 
-<h1>Hai</h1>
-
-
 <h1>{title}</h1>
 <hr/>
 <div>

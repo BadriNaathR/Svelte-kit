@@ -5,7 +5,7 @@ export const load = async(loadEvent) =>{
     const response = await fetch("api/postcodes")
     const postcodes = await response.json();
     const addressList = postcodes.map((postcode) => {
-        return `${postcode.buildingname} , ${postcode.line1} , ${postcode.town} `
+        return `${postcode.buildingname} , ${postcode.line1} , ${postcode.town}`
     });
     return {addressList};
 } 
